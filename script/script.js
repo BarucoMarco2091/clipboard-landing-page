@@ -15,9 +15,8 @@ function createCards() {
         newCard.className = 'new-card';
         newCard.innerHTML = 
         `
-        <img src="${item.icon}" alt="">
+        <img class="new-card-img" src="${item.icon}" alt="icon" loading="lazy">
         `
-
         gridContainer.appendChild(newGridContainer);
         newGridContainer.appendChild(newCard);
     });

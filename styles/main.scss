@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$strongCyan: hsl(171, 66%, 44%);
+$lightBlue: hsl(233, 100%, 69%);
+$darkGrayishBlue: hsl(210, 10%, 33%);
+$grayishBlue: hsl(201, 11%, 66%);
+
+main {
+    .snippets {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .secondary-title {
+            margin-top: 5dvh;
+            margin-bottom: 3dvh;
+            font-family: 'Bai Jamjuree', serif, arial;
+            font-size: 1.8rem;
+            color: $darkGrayishBlue;
+        }
+
+        .secondary-paragraph {
+            font-family: 'Bai Jamjuree', serif, arial;
+            font-size: 1rem;
+            color: $grayishBlue;
+            margin-bottom: 10dvh;
+        }
+    }
+
+    .hero {
+        display: flex;
+
+        .hero-img {
+            flex: 1;
+
+            .img-computer {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .hero-text {
+            justify-content: center;
+            align-items: center;
+            margin-right: 20dvh;
+
+            .third-title {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1.5rem;
+                color: $darkGrayishBlue;
+                margin-top: 5dvh;
+            }
+
+            .third-paragraph {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1rem;
+                color: $grayishBlue;
+                margin-top: 3dvh;
+            }
+        }
+    }
+
+    .secondary-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15dvh;
+
+        .clipboard-text {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .clipboard-title {
+                margin-top: 2dvh;
+                margin-bottom: 3dvh;
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1.8rem;
+                color: $darkGrayishBlue;
+            }
+
+            .clipboard-paragraph {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1rem;
+                color: $grayishBlue;
+                margin-bottom: 20dvh;
+            }
+        }
+
+        .clipboard-img {
+            margin: auto;
+
+            .devices-img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10dvh;
+            }
+        }
+    }
+
+    .third-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .title-supercharge {
+            font-family: 'Bai Jamjuree', serif, arial;
+            font-size: 1.6rem;
+            color: $darkGrayishBlue;
+            margin-bottom: 3dvh;
+        }
+
+        .paragraph-supercharge {
+            font-family: 'Bai Jamjuree', serif, arial;
+            font-size: 1rem;
+            color: $grayishBlue;
+            margin-bottom: 10dvh;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-right: 10dvh;
+        margin-left: 10dvh;
+
+        .card {
+            text-align: center;
+            
+            .card-img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 3dvh;
+            }
+
+            .card-title {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1.2rem;
+                color: $darkGrayishBlue;
+                margin-bottom: 2dvh;
+            }
+
+            .card-paragraph {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1rem;
+                color: $grayishBlue;
+                margin-bottom: 20dvh;
+            }
+        }
+    }
+
+    .second-grid-container, .new-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-right: 5dvh;
+        margin-left: 10dvh;
+        margin-bottom: 10dvh;
+    }
+
+    .fourth-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .fourth-text {
+            margin-bottom: 4dvh;
+
+            .clipboard-ios {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1.6rem;
+                color: $darkGrayishBlue;
+                margin-bottom: 3dvh;
+            }
+
+            .app-paragraph {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1rem;
+                color: $grayishBlue;
+            }
+        }
+
+        .btn {
+            display: flex;
+
+            .download-btn {
+                margin-left: 3dvh;
+                width:25dvh;
+                height: 6dvh;
+                border-radius: 10dvh;
+                border: none;
+                font-family: 'Bai Jamjuree', serif, arial;
+                color: white;
+                cursor: pointer;
+            }
+    
+            .color-cyan {
+                background-color: $strongCyan;
+            }
+    
+            .color-blue {
+                background-color: $lightBlue;
+            }
+        }
+    }
+}

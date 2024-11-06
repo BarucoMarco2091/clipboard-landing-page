@@ -5,9 +5,85 @@ $lightBlue: hsl(233, 100%, 69%);
 $darkGrayishBlue: hsl(210, 10%, 33%);
 $grayishBlue: hsl(201, 11%, 66%);
 
+@import '../styles/main.scss';
+@import '../styles/footer.scss';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 80dvh;
+
+
+    .background-header {
+        position: absolute;
+
+        .background-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        position: relative;
+
+        #header-logo {
+            margin-bottom: 4dvh;
+
+            .logo {
+                width: 70%;
+                object-fit: cover;
+            }
+        }
+
+        #header-text {
+            .main-title {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 2rem;
+                color: $darkGrayishBlue;
+                margin-bottom: 2dvh;
+            }
+
+            .header-paragraph {
+                font-family: 'Bai Jamjuree', serif, arial;
+                font-size: 1rem;
+                color: $grayishBlue;
+                margin-bottom: 3dvh;
+            }
+        }
+
+        .header-btn {
+            display: flex;
+
+            .download-btn {
+                margin-left: 3dvh;
+                width:25dvh;
+                height: 6dvh;
+                border-radius: 10dvh;
+                border: none;
+                font-family: 'Bai Jamjuree', serif, arial;
+                color: white;
+                cursor: pointer;
+            }
+
+            .color-cyan {
+                background-color: $strongCyan;
+            }
+
+            .color-blue {
+                background-color: $lightBlue;
+            }
+        }
+    }
 }
