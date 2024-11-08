@@ -166,4 +166,124 @@ main .fourth-content .btn .color-cyan {
 }
 main .fourth-content .btn .color-blue {
   background-color: hsl(233, 100%, 69%);
+}
+
+@media screen and (max-width: 480ps) {
+  .snippets {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secondary-title {
+    margin-top: 2dvh !important;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secondary-paragraph {
+    text-align: center !important;
+    margin: 1dvh;
+    margin-bottom: 2dvh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    margin: 1dvh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-text {
+    text-align: center !important;
+    margin: 1dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secondary-title {
+    text-align: center;
+    margin: 1dvh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secondary-paragraph {
+    text-align: center;
+    margin: 1dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secondary-content {
+    display: flex !important;
+    margin-top: 2dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clipboard-title {
+    margin: 1dvh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clipboard-paragraph {
+    margin: 1dvh;
+    margin-bottom: 5dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .devices-img {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title-supercharge {
+    text-align: center !important;
+    margin: 1dvh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin-bottom: 5dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    margin-top: 2dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .second-grid-container, .new-grid {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin-bottom: 5dvh !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .new-card {
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 5dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fourth-content {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 1dvh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }/*# sourceMappingURL=main.css.map */

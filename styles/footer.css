@@ -69,4 +69,46 @@ footer .footer-icons .social-media {
      object-fit: cover;
   margin-right: 3dvh;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 7dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-logo {
+    margin: auto !important;
+    margin-bottom: 5dvh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-links {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 5dvh !important;
+    margin: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .first-col, .second-col, .third-col {
+    text-align: center !important;
+    margin: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-icons {
+    display: flex !important;
+    width: 20% !important;
+    margin: auto !important;
+    margin-top: 5dvh !important;
+  }
 }/*# sourceMappingURL=footer.css.map */
