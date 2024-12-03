@@ -344,3 +344,41 @@ main {
         align-items: center !important;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-text {
+        margin: auto;
+
+        .third-title {
+            text-align: center;
+        }
+
+        .third-paragraph {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .second-grid-container, .new-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

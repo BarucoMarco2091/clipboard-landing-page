@@ -111,4 +111,31 @@ footer .footer-icons .social-media {
     margin: auto !important;
     margin-top: 5dvh !important;
   }
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-logo {
+    width: 15dvh !important;
+    margin: 0 auto;
+    padding: 2dvh 2dvh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-links {
+    display: flex;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-icons {
+    width: 20dvh;
+    margin: auto;
+  }
 }/*# sourceMappingURL=footer.css.map */
